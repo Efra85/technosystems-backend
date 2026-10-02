@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/kernel")
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST})
+@CrossOrigin(origins = "https://www.technosystems.com.br", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST})
 public class KernelSimulationController {
 
     // CARD 1: Métricas Reais do Sistema (Já funcionava!)
