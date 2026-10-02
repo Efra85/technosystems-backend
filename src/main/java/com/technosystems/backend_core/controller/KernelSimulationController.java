@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("https://api.technosystems.com.br/api/v1/kernel")
+@RequestMapping("/api/v1/kernel")
 @CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST})
 public class KernelSimulationController {
 
